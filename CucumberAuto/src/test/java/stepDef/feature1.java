@@ -20,12 +20,16 @@ import junit.framework.Assert;
 @SuppressWarnings("deprecation")
 public class feature1 {
 	
-	WebDriver d = new ChromeDriver();
+	//WebDriver d = new ChromeDriver();
+	
+	WebDriver d = null;
 	
 	@Before(order=1)
 	public void setup()
 	{
 		 System.setProperty("webdriver.chrome.driver", "C://Users//x173479//Desktop//My stuff//Selenium//Final//driver//chromedriver.exe");
+		 
+		 d = new ChromeDriver();
 		 
 		 d.get("https://stackoverflow.com/");
 	}
@@ -48,6 +52,8 @@ public class feature1 {
 	public void the_user_is_on_Stackoverflow_homepage() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		 System.setProperty("webdriver.chrome.driver", "C://Users//x173479//Desktop//My stuff//Selenium//Final//driver//chromedriver.exe");
+		 
+		 d = new ChromeDriver();
 		 
 		 d.get("https://stackoverflow.com/");
 	}
