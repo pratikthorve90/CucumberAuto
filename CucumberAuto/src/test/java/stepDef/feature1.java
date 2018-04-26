@@ -68,8 +68,8 @@ public class feature1 {
 	public void user_enters_correct_username_and_password() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		
-		d.findElement(By.id("email")).sendKeys("pratikthorve90@gmail.com");
-		d.findElement(By.id("password")).sendKeys("99609960asd");
+		d.findElement(By.id("email")).sendKeys("username@gmail.com");
+		d.findElement(By.id("password")).sendKeys("password");
 	   
 	}
 
@@ -97,8 +97,8 @@ public class feature1 {
 	public void user_enters_incorrect_username_and_password() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		
-		d.findElement(By.id("email")).sendKeys("pratikthorve90@gmail.com");
-		d.findElement(By.id("password")).sendKeys("9960");
+		d.findElement(By.id("email")).sendKeys("username@gmail.com");
+		d.findElement(By.id("password")).sendKeys("password");
 	  
 	}
 
