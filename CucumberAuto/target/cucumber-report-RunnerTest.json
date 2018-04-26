@@ -1,0 +1,1297 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4713174635,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on Stackoverflow homepage",
+            "match": {
+              "location": "feature1.the_user_is_on_Stackoverflow_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20149319698,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Validate Stackoverflow login with correct credentials from datadriven.feature1",
+        "description": "",
+        "id": "stackoverflow-login-from-datadriven.feature;validate-stackoverflow-login-with-correct-credentials-from-datadriven.feature1;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 72733,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.closing()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3652054560,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on login home page buttong",
+            "match": {
+              "location": "feature1.user_click_on_login_home_page_buttong()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 292774771,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters correct \"pratik\" and \"pass1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pratik",
+                  "offset": 21
+                },
+                {
+                  "val": "pass1",
+                  "offset": 34
+                }
+              ],
+              "location": "feature1.user_enters_correct_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141198109,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on login Button",
+            "match": {
+              "location": "feature1.user_clicks_on_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 624329782,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is successfully directed to the homepage",
+            "match": {
+              "location": "feature1.user_is_successfully_directed_to_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1619993895,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on Stackoverflow homepage",
+            "match": {
+              "location": "feature1.the_user_is_on_Stackoverflow_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14007437985,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Validate Stackoverflow login with correct credentials from datadriven.feature1",
+        "description": "",
+        "id": "stackoverflow-login-from-datadriven.feature;validate-stackoverflow-login-with-correct-credentials-from-datadriven.feature1;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 73626,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.closing()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3329805396,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on login home page buttong",
+            "match": {
+              "location": "feature1.user_click_on_login_home_page_buttong()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 650549471,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters correct \"thorve\" and \"pass2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "thorve",
+                  "offset": 21
+                },
+                {
+                  "val": "pass2",
+                  "offset": 34
+                }
+              ],
+              "location": "feature1.user_enters_correct_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194537059,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on login Button",
+            "match": {
+              "location": "feature1.user_clicks_on_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 761519974,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is successfully directed to the homepage",
+            "match": {
+              "location": "feature1.user_is_successfully_directed_to_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Stackoverflow Login from datadriven.feature",
+    "description": "As a stackoverflow user , with valid credentials i should be able to successfully login",
+    "id": "stackoverflow-login-from-datadriven.feature",
+    "keyword": "Feature",
+    "uri": "datadriven.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13546627406,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Validate Stackoverflow login with correct credentials from datatable.feature1",
+        "description": "",
+        "id": "stackoverflow-login-(with-data-table)-from-datatable.feature;validate-stackoverflow-login-with-correct-credentials-from-datatable.feature1",
+        "after": [
+          {
+            "result": {
+              "duration": 66933,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.closing()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2567467507,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is on Stackoverflow homepage",
+            "match": {
+              "location": "feature1.the_user_is_on_Stackoverflow_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3446052411,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on login home page buttong",
+            "match": {
+              "location": "feature1.user_click_on_login_home_page_buttong()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14933532,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters following username and password",
+            "match": {
+              "location": "feature1.user_enters_following_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "pratik",
+                  "thorve"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 171877733,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on login Button",
+            "match": {
+              "location": "feature1.user_clicks_on_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 735812542,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is successfully directed to the homepage",
+            "match": {
+              "location": "feature1.user_is_successfully_directed_to_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Stackoverflow Login (With data Table) from datatable.feature",
+    "description": "As a stackoverflow user , with valid credentials i should be able to successfully login",
+    "id": "stackoverflow-login-(with-data-table)-from-datatable.feature",
+    "keyword": "Feature",
+    "uri": "datatable.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3888777830,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on Stackoverflow homepage",
+            "match": {
+              "location": "feature1.the_user_is_on_Stackoverflow_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11903047838,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Validate Stackoverflow login with correct credentials from feature1.feature1",
+        "description": "",
+        "id": "stackoverflow-login-from-feature1.feature;validate-stackoverflow-login-with-correct-credentials-from-feature1.feature1",
+        "after": [
+          {
+            "result": {
+              "duration": 55777,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.closing()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3392908904,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on login home page buttong",
+            "match": {
+              "location": "feature1.user_click_on_login_home_page_buttong()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 420354349,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters correct username and password",
+            "match": {
+              "location": "feature1.user_enters_correct_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110370788,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on login Button",
+            "match": {
+              "location": "feature1.user_clicks_on_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 722105215,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is successfully directed to the homepage",
+            "match": {
+              "location": "feature1.user_is_successfully_directed_to_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000325292,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on Stackoverflow homepage",
+            "match": {
+              "location": "feature1.the_user_is_on_Stackoverflow_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11770221199,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validate Stackoverflow login with incorrect credentials from feature1.feature2",
+        "description": "",
+        "id": "stackoverflow-login-from-feature1.feature;validate-stackoverflow-login-with-incorrect-credentials-from-feature1.feature2",
+        "after": [
+          {
+            "result": {
+              "duration": 92813,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.closing()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1617537027,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click on login home page buttong",
+            "match": {
+              "location": "feature1.user_click_on_login_home_page_buttong()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 370575316,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters incorrect username and password",
+            "match": {
+              "location": "feature1.user_enters_incorrect_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221331921,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on login Button",
+            "match": {
+              "location": "feature1.user_clicks_on_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 688759447,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User is displayed with error on login page",
+            "match": {
+              "location": "feature1.user_is_displayed_with_error_on_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Stackoverflow Login from feature1.feature",
+    "description": "As a stackoverflow user , with valid credentials i should be able to successfully login",
+    "id": "stackoverflow-login-from-feature1.feature",
+    "keyword": "Feature",
+    "uri": "feature1.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11590692635,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate Stackoverflow login with correct credentials (Paramaterzied TC) from featureParameterized.feature1",
+        "description": "",
+        "id": "stackoverflow-login--(paramaterzied-tc)-from-featureparameterized.feature;validate-stackoverflow-login-with-correct-credentials-(paramaterzied-tc)-from-featureparameterized.feature1",
+        "after": [
+          {
+            "result": {
+              "duration": 136543,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.closing()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4279988881,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is on Stackoverflow homepage",
+            "match": {
+              "location": "feature1.the_user_is_on_Stackoverflow_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4013700635,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on login home page buttong",
+            "match": {
+              "location": "feature1.user_click_on_login_home_page_buttong()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 413531697,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username \"pratikthorve90@gmail.com\" and password \"99609960asd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pratikthorve90@gmail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "99609960asd",
+                  "offset": 62
+                }
+              ],
+              "location": "feature1.user_enters_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133648571,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on login Button",
+            "match": {
+              "location": "feature1.user_clicks_on_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 590096044,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is successfully directed to the homepage",
+            "match": {
+              "location": "feature1.user_is_successfully_directed_to_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11776811372,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Validate Stackoverflow login with incorrect credentials  (Paramaterzied TC) from featureParameterized.feature2",
+        "description": "",
+        "id": "stackoverflow-login--(paramaterzied-tc)-from-featureparameterized.feature;validate-stackoverflow-login-with-incorrect-credentials--(paramaterzied-tc)-from-featureparameterized.feature2",
+        "after": [
+          {
+            "result": {
+              "duration": 64701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.closing()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3921579214,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user is on Stackoverflow homepage",
+            "match": {
+              "location": "feature1.the_user_is_on_Stackoverflow_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4506587049,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on login home page buttong",
+            "match": {
+              "location": "feature1.user_click_on_login_home_page_buttong()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 363009267,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters username \"pratik@gmail.com\" and password \"qwe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pratik@gmail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "qwe",
+                  "offset": 54
+                }
+              ],
+              "location": "feature1.user_enters_username_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 266637633,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on login Button",
+            "match": {
+              "location": "feature1.user_clicks_on_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 595229319,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is displayed with error on login page",
+            "match": {
+              "location": "feature1.user_is_displayed_with_error_on_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Stackoverflow Login  (Paramaterzied TC) from featureParameterized.feature",
+    "description": "As a stackoverflow user , with valid credentials i should be able to successfully login",
+    "id": "stackoverflow-login--(paramaterzied-tc)-from-featureparameterized.feature",
+    "keyword": "Feature",
+    "uri": "featureParameterized.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11178111825,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Validate Stackoverflow login with correct credentials from hooks.feature1",
+        "description": "",
+        "id": "stackoverflow-login-from-hooks.feature;validate-stackoverflow-login-with-correct-credentials-from-hooks.feature1",
+        "after": [
+          {
+            "result": {
+              "duration": 76749,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.closing()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4091957659,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on login home page buttong",
+            "match": {
+              "location": "feature1.user_click_on_login_home_page_buttong()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 438638075,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters correct username and password",
+            "match": {
+              "location": "feature1.user_enters_correct_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162604459,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on login Button",
+            "match": {
+              "location": "feature1.user_clicks_on_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 932885451,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is successfully directed to the homepage",
+            "match": {
+              "location": "feature1.user_is_successfully_directed_to_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10491216226,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Validate Stackoverflow login with incorrect credentials from hooks.feature2",
+        "description": "",
+        "id": "stackoverflow-login-from-hooks.feature;validate-stackoverflow-login-with-incorrect-credentials-from-hooks.feature2",
+        "after": [
+          {
+            "result": {
+              "duration": 71394,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.closing()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3229334370,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on login home page buttong",
+            "match": {
+              "location": "feature1.user_click_on_login_home_page_buttong()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 374923250,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters incorrect username and password",
+            "match": {
+              "location": "feature1.user_enters_incorrect_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128655406,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on login Button",
+            "match": {
+              "location": "feature1.user_clicks_on_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 326485544,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is displayed with error on login page",
+            "match": {
+              "location": "feature1.user_is_displayed_with_error_on_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Stackoverflow Login from hooks.feature",
+    "description": "As a stackoverflow user , with valid credentials i should be able to successfully login",
+    "id": "stackoverflow-login-from-hooks.feature",
+    "keyword": "Feature",
+    "uri": "hooks.feature"
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4455510418,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is on Stackoverflow homepage",
+            "match": {
+              "location": "feature1.the_user_is_on_Stackoverflow_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10448538730,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Validate Stackoverflow login with correct credentials from tags.feature1",
+        "description": "",
+        "id": "stackoverflow-login-from-tags.feature;validate-stackoverflow-login-with-correct-credentials-from-tags.feature1",
+        "after": [
+          {
+            "result": {
+              "duration": 69163,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.closing()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2915359847,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on login home page buttong",
+            "match": {
+              "location": "feature1.user_click_on_login_home_page_buttong()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 423684911,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters correct username and password",
+            "match": {
+              "location": "feature1.user_enters_correct_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132244773,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on login Button",
+            "match": {
+              "location": "feature1.user_clicks_on_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 314364962,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is successfully directed to the homepage",
+            "match": {
+              "location": "feature1.user_is_successfully_directed_to_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3272413460,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is on Stackoverflow homepage",
+            "match": {
+              "location": "feature1.the_user_is_on_Stackoverflow_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10678246583,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Validate Stackoverflow login with incorrect credentials from tags.feature2",
+        "description": "",
+        "id": "stackoverflow-login-from-tags.feature;validate-stackoverflow-login-with-incorrect-credentials-from-tags.feature2",
+        "after": [
+          {
+            "result": {
+              "duration": 78980,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.closing()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4445743629,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click on login home page buttong",
+            "match": {
+              "location": "feature1.user_click_on_login_home_page_buttong()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 297075853,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters incorrect username and password",
+            "match": {
+              "location": "feature1.user_enters_incorrect_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134494151,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on login Button",
+            "match": {
+              "location": "feature1.user_clicks_on_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 435721157,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User is displayed with error on login page",
+            "match": {
+              "location": "feature1.user_is_displayed_with_error_on_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3604672602,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is on Stackoverflow homepage",
+            "match": {
+              "location": "feature1.the_user_is_on_Stackoverflow_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10609497988,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.setup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Validate Stackoverflow login with incorrect credentials both smoke and regression",
+        "description": "",
+        "id": "stackoverflow-login-from-tags.feature;validate-stackoverflow-login-with-incorrect-credentials-both-smoke-and-regression",
+        "after": [
+          {
+            "result": {
+              "duration": 74518,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.closing()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2088637808,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click on login home page buttong",
+            "match": {
+              "location": "feature1.user_click_on_login_home_page_buttong()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 326975044,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enters incorrect username and password",
+            "match": {
+              "location": "feature1.user_enters_incorrect_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154039331,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User clicks on login Button",
+            "match": {
+              "location": "feature1.user_clicks_on_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 334212678,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User is displayed with error on login page",
+            "match": {
+              "location": "feature1.user_is_displayed_with_error_on_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@Smoke"
+          },
+          {
+            "line": 23,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Stackoverflow Login from tags.feature",
+    "description": "As a stackoverflow user , with valid credentials i should be able to successfully login",
+    "id": "stackoverflow-login-from-tags.feature",
+    "keyword": "Feature",
+    "uri": "tags.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@Important"
+      }
+    ]
+  }
+]

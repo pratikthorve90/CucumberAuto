@@ -1,0 +1,236 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4116615144,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is on Stackoverflow homepage",
+            "match": {
+              "location": "feature1.the_user_is_on_Stackoverflow_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10902909511,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Validate Stackoverflow login with incorrect credentials from tags.feature2",
+        "description": "",
+        "id": "stackoverflow-login-from-tags.feature;validate-stackoverflow-login-with-incorrect-credentials-from-tags.feature2",
+        "after": [
+          {
+            "result": {
+              "duration": 43729,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.closing()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2746053214,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click on login home page buttong",
+            "match": {
+              "location": "feature1.user_click_on_login_home_page_buttong()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 538996209,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters incorrect username and password",
+            "match": {
+              "location": "feature1.user_enters_incorrect_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148989497,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on login Button",
+            "match": {
+              "location": "feature1.user_clicks_on_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2206022675,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User is displayed with error on login page",
+            "match": {
+              "location": "feature1.user_is_displayed_with_error_on_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4124061160,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is on Stackoverflow homepage",
+            "match": {
+              "location": "feature1.the_user_is_on_Stackoverflow_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11809655146,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.setup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Validate Stackoverflow login with incorrect credentials both smoke and regression",
+        "description": "",
+        "id": "stackoverflow-login-from-tags.feature;validate-stackoverflow-login-with-incorrect-credentials-both-smoke-and-regression",
+        "after": [
+          {
+            "result": {
+              "duration": 450233,
+              "status": "passed"
+            },
+            "match": {
+              "location": "feature1.closing()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4304323304,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User click on login home page buttong",
+            "match": {
+              "location": "feature1.user_click_on_login_home_page_buttong()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1003231947,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enters incorrect username and password",
+            "match": {
+              "location": "feature1.user_enters_incorrect_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 683026455,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User clicks on login Button",
+            "match": {
+              "location": "feature1.user_clicks_on_login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1086626264,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User is displayed with error on login page",
+            "match": {
+              "location": "feature1.user_is_displayed_with_error_on_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@Smoke"
+          },
+          {
+            "line": 23,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Stackoverflow Login from tags.feature",
+    "description": "As a stackoverflow user , with valid credentials i should be able to successfully login",
+    "id": "stackoverflow-login-from-tags.feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FeatureFiles/tags.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@Important"
+      }
+    ]
+  }
+]
