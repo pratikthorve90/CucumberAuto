@@ -38,6 +38,7 @@ public class feature1 {
 	public void closing()
 	{
 		System.out.println("Closing completed");
+
 	}
 	
 	@Given("^user is on Stackoverflow homepage$")
