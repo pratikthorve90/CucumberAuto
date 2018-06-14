@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 		
 		monochrome=true,
 		
-		features= {"src/test/resources/FeatureFiles/"},
+		features= {"src/test/resources/FeatureFiles/feature1.feature"},
 		
 		dryRun=false,
 		
